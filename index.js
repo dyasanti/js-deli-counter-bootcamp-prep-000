@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
     for (let i = 0; i < katzDeliLine.length; i++) { // take note of the end value here a.k.a the use of '<' 
       line.push(`${i + 1}. ${katzDeliLine[i]}`)
     }
-    return (`The line is currently: ${line.join(', ')}`) // .join to join all elements of an array into a string 
+    return (`The line is currently: ${line.join(", ")}`) // .join to join all elements of an array into a string 
   } else {
     return ("The line is currently empty.")
   }
