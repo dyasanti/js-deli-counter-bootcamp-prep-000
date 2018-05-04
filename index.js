@@ -16,7 +16,7 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     var line = [];
-    for (let i = 0; i < katzDeliLine.length; i++) {
+    for (let i = 0; i < katzDeliLine.length; i++) { // take note of the 
       line.push(`${i + 1}. ${katzDeliLine[i]}`)
     }
     return (`The line is currently: ${line.join(', ')}`) // .join to join all elements of an array into a string 
